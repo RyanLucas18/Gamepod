@@ -1,0 +1,77 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao1{
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .botao2{
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .jogo-principal .descricao{
+        margin-bottom:0px;
+        font-family:'Netflix Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 0px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:411px) {
+    .jogo-principal .descricao{
+        margin-bottom:0px;
+        font-family:'Netflix Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 0px;
+    }
+
+    .titulo-fifa{
+        font-size: 46px;
+    }
+
+    .tophoje{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    header nav a{
+        text-decoration: none;
+        font-family:'Netflix Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(243, 239, 239);
+        margin-right: 5px;
+    
+    }
+
+    .box-jogo{
+        height: 300px;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 2080px) {
+    .jogo-principal{
+        background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%),url('/img/img-jogos/fifacapa.jpg') ;
+        height: 1000px;
+    }
+
+    .jogo-principal .descricao{
+        margin-bottom:100px;
+        font-family:'Netflix Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+    }
+    
+    .jogo-principal .container{
+        width:50%;
+        margin-top: 10%;
+    }
+}
